@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <div class="central-conversao">
+
+            <header>
+                <h1>Conversor de Moeda em Tempo Real</h1>
+            </header>
+            <div class="geral">
+                <div class="tipoEConversao">
+                    <span>Moeda de origem</span>
+                    <select id="tipoDaMoedaUm" class="opcoes">
+                    </select>
+                    <input placeholder="Digite o valor para converter" id="paraConversao" class="inputs"
+                        type="number"></input>
+                </div>
+                
+                <div class="btnReverter">
+                    <img src="iconTroca/trocarIcon.png" alt="botão Rverter">
+                </div>
+                <div class="tipoEConversao">
+                    <span>Moeda de destino</span>
+                    <select id="tipoDaMoedaDois" class="opcoes">
+                    </select>
+                    <input placeholder="Valor da conversão" id="convertido" class="inputs" type="text" disabled></input>
+                </div>
+            </div>
+            <div>
+                <span id="semCombinacao" class="spanSemCombinacao"> Erro </span>
+            </div>
+        </div>
+
+    </main>
+
+    <script src="js.js"></script>
+</body>
+
+</html>
